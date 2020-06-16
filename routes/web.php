@@ -24,6 +24,6 @@ Route::group(['prefix' => '/'], function () {
     Route::delete('/{id}', 'ConsumentController@destroy');
 });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

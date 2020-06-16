@@ -24,7 +24,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Jenis Kendaraan</label>
-                            <select class="form-control" id="jenis_kendaraan">
+                            <select class="form-control" name="jenis_kendaraan">
                                 <option value="Mobil">Mobil</option>
                                 <option value="Motor">Motor</option>
                             </select>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Jenis Kelamin</label>
-                            <select class="form-control" id="jenis_kelamin">
+                            <select class="form-control" name="jenis_kelamin">
                                 <option value="L">Laki - Laki</option>
                                 <option value="P">Perempuan</option>
                             </select>
